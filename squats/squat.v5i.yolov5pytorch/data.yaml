@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['squat down', 'squat up']
+
+roboflow:
+  workspace: rmutr-smmj1
+  project: squat-bmfcg
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rmutr-smmj1/squat-bmfcg/dataset/5
